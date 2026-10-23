@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "abi-skills",
+  "description": "Self-hosted agent skills for ABI, an early-stage bioinformatics workflow control plane. The skills do not install analysis plugins, biological tools, databases, or runtime resources, and they do not establish scientific validation.",
+  "owner": {
+    "name": "BingkangGuo",
+    "email": "bingkangguo@gmail.com",
+    "url": "https://github.com/sleepinlava"
+  },
+  "plugins": [
+    {
+      "name": "abi",
+      "source": "./",
+      "description": "Operator and plugin-development skills for ABI. Documentation-only; no analysis plugins, tools, databases, or runtime resources are installed.",
+      "category": "Science",
+      "tags": ["bioinformatics", "workflow", "mcp", "agent-skills"]
+    }
+  ]
+}

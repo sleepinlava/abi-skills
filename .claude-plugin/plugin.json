@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "abi",
+  "displayName": "ABI Bioinformatics Skills",
+  "version": "1.7.0",
+  "description": "Two documentation-only agent skills for ABI: an operator lifecycle for installed workflows and a plugin-development review checklist. The skills do not install analysis plugins, biological tools, databases, or runtime resources.",
+  "author": {
+    "name": "BingkangGuo",
+    "email": "bingkangguo@gmail.com",
+    "url": "https://github.com/sleepinlava"
+  },
+  "homepage": "https://github.com/sleepinlava/abi-skills",
+  "repository": "https://github.com/sleepinlava/abi-skills",
+  "license": "MIT",
+  "keywords": ["bioinformatics", "workflow", "mcp", "agent-skills"]
+}
